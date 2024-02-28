@@ -1,0 +1,52 @@
+<dependencies>
+  <packages>
+    <package>androidx.camera:camera-camera2:1.1.0-beta02</package>
+    <package>androidx.camera:camera-core:1.1.0-beta02</package>
+    <package>androidx.camera:camera-lifecycle:1.1.0-beta02</package>
+    <package>androidx.camera:camera-view:1.1.0-beta02</package>
+    <package>androidx.core:core:1.5+</package>
+    <package>androidx.lifecycle:lifecycle-extensions:2.2+</package>
+    <package>androidx.lifecycle:lifecycle-runtime:2.4+</package>
+    <package>com.google.android.gms:play-services-base:18.2.0</package>
+    <package>com.google.android.gms:play-services-mlkit-barcode-scanning:[18.0.0]</package>
+    <package>com.google.android.gms:play-services-tasks:18.0.1</package>
+    <package>com.google.firebase:firebase-analytics:21.3.0</package>
+    <package>com.google.firebase:firebase-app-unity:11.6.0</package>
+    <package>com.google.firebase:firebase-auth:22.1.2</package>
+    <package>com.google.firebase:firebase-auth-unity:11.6.0</package>
+    <package>com.google.firebase:firebase-common:20.3.3</package>
+    <package>com.google.firebase:firebase-firestore:24.8.1</package>
+    <package>com.google.firebase:firebase-firestore-unity:11.6.0</package>
+    <package>com.google.mlkit:barcode-scanning:[17.0.2]</package>
+    <package>com.google.mlkit:digital-ink-recognition:18.1.0</package>
+    <package>com.google.mlkit:face-detection:16.1.5</package>
+    <package>com.google.mlkit:object-detection:[17.0.0]</package>
+    <package>com.google.mlkit:object-detection-custom:17.0.0</package>
+    <package>com.google.mlkit:text-recognition:16.0.0-beta4</package>
+  </packages>
+  <files>
+    <file>Assets/GeneratedLocalRepo/Firebase/m2repository/com/google/firebase/firebase-app-unity/11.6.0/firebase-app-unity-11.6.0.aar</file>
+    <file>Assets/GeneratedLocalRepo/Firebase/m2repository/com/google/firebase/firebase-app-unity/11.6.0/firebase-app-unity-11.6.0.pom</file>
+    <file>Assets/GeneratedLocalRepo/Firebase/m2repository/com/google/firebase/firebase-auth-unity/11.6.0/firebase-auth-unity-11.6.0.aar</file>
+    <file>Assets/GeneratedLocalRepo/Firebase/m2repository/com/google/firebase/firebase-auth-unity/11.6.0/firebase-auth-unity-11.6.0.pom</file>
+    <file>Assets/GeneratedLocalRepo/Firebase/m2repository/com/google/firebase/firebase-firestore-unity/11.6.0/firebase-firestore-unity-11.6.0.aar</file>
+    <file>Assets/GeneratedLocalRepo/Firebase/m2repository/com/google/firebase/firebase-firestore-unity/11.6.0/firebase-firestore-unity-11.6.0.pom</file>
+  </files>
+  <settings>
+    <setting name="androidAbis" value="arm64-v8a" />
+    <setting name="bundleId" value="com.myelinh.mltoolkit" />
+    <setting name="explodeAars" value="True" />
+    <setting name="gradleBuildEnabled" value="True" />
+    <setting name="gradlePropertiesTemplateEnabled" value="True" />
+    <setting name="gradleTemplateEnabled" value="True" />
+    <setting name="installAndroidPackages" value="True" />
+    <setting name="localMavenRepoDir" value="Assets/GeneratedLocalRepo" />
+    <setting name="packageDir" value="Assets/Plugins/Android" />
+    <setting name="patchAndroidManifest" value="True" />
+    <setting name="patchMainTemplateGradle" value="True" />
+    <setting name="projectExportEnabled" value="False" />
+    <setting name="useFullCustomMavenRepoPathWhenExport" value="True" />
+    <setting name="useFullCustomMavenRepoPathWhenNotExport" value="False" />
+    <setting name="useJetifier" value="True" />
+  </settings>
+</dependencies>
