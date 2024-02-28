@@ -1,4 +1,3 @@
-using System.Collections;
 using Firebase;
 using Firebase.Extensions;
 using Firebase.Firestore;
@@ -21,7 +20,7 @@ public class Main : MonoBehaviour
                 Debug.Log("Firebase is ready to use!");
                 m_db = FirebaseFirestore.DefaultInstance;
                 ListenForUserChanges();
-                // StartCoroutine(UpdateUserName());
+                UpsertUser();
             }
             else
             {
@@ -30,19 +29,13 @@ public class Main : MonoBehaviour
         });
     }
 
-    private IEnumerator UpdateUserName()
+    private void UpsertUser()
     {
-        var i = 0;
-        while (true)
+        m_db.Collection("user").Document("1").SetAsync(new
         {
-            m_db.Collection("user").Document("1").SetAsync(new
-            {
-                id = "1",
-                name = i.ToString()
-            });
-            yield return new WaitForSeconds(5);
-            i++;
-        }
+            id = "1",
+            name = "John Doe"
+        });
     }
 
     private void ListenForUserChanges()
